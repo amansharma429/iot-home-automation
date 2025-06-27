@@ -5,10 +5,10 @@
 #include <Servo.h>
 
 // WiFi & Telegram Credentials
-const char* ssid = "moto g13_2168";
-const char* password = "abcd1234";
-const char* botToken = "8084641959:AAG5r3pZju1CRzXHdCh967F3-LGyXre7YPQ";
-const int64_t chatId = 1218303734;
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
+const char* botToken = "telegram_bot_token";
+const int64_t chatId = 12345678;
 
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken, client);
